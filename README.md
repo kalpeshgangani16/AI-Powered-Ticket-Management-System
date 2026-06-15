@@ -1,4 +1,4 @@
-# AI-Powered Enterprise Service Desk & Ticket Management System
+# AI-Powered Ticket Management System
 
 An enterprise-grade Helpdesk and Support Ticket Management System featuring automated AI ticket triaging, dynamic workload-balanced routing, secure authentication, role-based authorization, and a modern glassmorphic dashboard interface.
 
@@ -7,7 +7,6 @@ An enterprise-grade Helpdesk and Support Ticket Management System featuring auto
 ## 🚀 Key Features
 
 * 🤖 **AI Ticket Triaging**: Automatically analyzes ticket descriptions using **Gemini 2.0 Flash** to identify the correct technical department, detect the root cause, and generate multi-step troubleshooting guidelines.
-* 📋 **Rule-Based Local Fallback**: Integrates a robust keyword-matching NLP classifier to routing when AI API quotas are exceeded.
 * ⚖️ **Workload-Balanced Engineer Assignment**: Automatically assigns new tickets to the Support Engineer with the lowest workload in that department (Weighted system: `OPEN = 1.0`, `IN_PROGRESS = 2.0`). Resolves ties deterministically using engineer seniority.
 * 🔒 **Role-Based Access Control (RBAC)**:
   * **Admin**: Complete system control, user directory creation, account deletion, and manual ticket reassignments.
