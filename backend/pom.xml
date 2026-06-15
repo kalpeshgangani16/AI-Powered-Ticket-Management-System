@@ -13,7 +13,7 @@
     <groupId>com.desk</groupId>
     <artifactId>ticket-management</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>AI-Powered Enterprise Service Desk &amp; Ticket Management System</name>
+    <name>AI-Powered Ticket Management System</name>
     <description>Enterprise Helpdesk and Support Ticket Management System</description>
 
     <properties>
