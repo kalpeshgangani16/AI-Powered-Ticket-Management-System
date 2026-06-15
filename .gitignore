@@ -1,0 +1,31 @@
+# Maven build output
+backend/target/
+target/
+*.class
+
+# Node / React dependencies and builds
+frontend/node_modules/
+node_modules/
+frontend/dist/
+dist/
+
+# Local environment files (containing secrets)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.local
+
+# IDE configurations
+.idea/
+*.iml
+.vscode/
+.settings/
+.project
+.classpath
+bin/
+
+# OS temporary files
+.DS_Store
+Thumbs.db
